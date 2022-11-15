@@ -1,8 +1,24 @@
 /* comentarios en css*/
 /* selectores */
+body{
+    background-color: aqua;
+}
 h1{
-    color: blue;
+    color: black;
+    background-color: rgb(226, 20, 17,0.5);
 }
 p{
+    color: green;
+}
+.textorojo{
     color: red;
+}
+.letras{
+    color: blueviolet;
+}
+#untexto{
+    background-color: wheat
+}
+img{
+    width: 50%;
 }
