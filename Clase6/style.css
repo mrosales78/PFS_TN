@@ -4,12 +4,15 @@
 
 }
 
+
 body{
     background-color: lightyellow;
     margin: 0px;
     
+    
    
 }
+
 
 /*--------HOJA--------*/
 /*------- INDEX-------*/
@@ -51,6 +54,42 @@ body{
     height: 200px;
     color: beige;
 }
+
+.contenedor-tarjetas-recientes{
+    display: flex;
+    background-color:pink;
+flex-direction: row;
+justify-content:space-around;
+align-items: center;
+
+}
+.link-boton{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.boton{
+    padding: 8px;
+    background-color:#052d46 ;
+    width: 80px;
+    border-radius: 8px;
+    color: whitesmoke;
+
+}
+.menu{
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    gap:20px
+}
+h1{
+    text-align: center;
+}
+
+
+
+
+
 
 /*--------HOJA--------*/
 /*-------FORMULARIO---*/
