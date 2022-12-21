@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+} /*sirve para qee el scrool sea suave */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav > a{
+    margin-left: 15px;
+    
+}
+
+.hamburquesa{
+    color: black;
+    display: none;
+    cursor: pointer;
+    font-size: 32px;
+}
+/* como a los 450 px se rompe hacemos algo */
+@media(max-width:500px)
+{
+     nav,div{
+        display: none;
+            }
+     .hamburquesa{
+        display: block;
+        color: black
+                } 
+     /* header{
+        flex-direction: column;
+     }
+     nav{
+        display: flex;
+        flex-direction: column;
+     } */
+}
+    .contenedorhero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../clase9/craft\ beer.jpg)center, no-repeat;
+    }
+    .tituloHero{
+    font-size: 4rem;/*no usar px para texto, texto siempre rem. para imagenes utilizar %*/
+    text-transform: uppercase;
+    color: white;
+    padding: 1.5rem 0rem;
+    text-align: center;
+            }
+    .texthero{
+    font-size: 1rem;
+    color: white;
+    max-width: 40%;
+    text-align: center;
+    padding-bottom: 2rem;
+    }
+    button{
+    padding: 0.4rem 1rem;
+    border: 1px solid white;
+    color: black;
+    font-size: 1.25rem;
+    background-color: white ;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+ button:hover{
+    background-color: transparent;
+    color: white;
+    border-color: red;
+}
+img{
+    width: 30%;
+}
+
+
+
+
+
