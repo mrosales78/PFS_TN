@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+} /*sirve para qee el scrool sea suave */
+body{
+    height: 100vh;
+
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5%;
+    background: aliceblue;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav > a{
+    margin-left: 15px;
+    font-size: 20px;
+
+    
+    
+    
+    
+}
+.button{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+.search-container{
+    width: 15%;
+    height: 30px;
+    align-items: center;
+    position: relative;
+	
+}
+.input{width: 100%;
+height: 30px;
+border-radius: 30px;
+display: block;
+font-size: 15px;
+padding-left: 50px;
+outline: none;
+
+
+}
+
+
+
+.hamburquesa{
+    color: black;
+    display: none;
+    cursor: pointer;
+    font-size: 32px;
+}
+header .logo {
+    width: 8vw;
+    justify-content: right;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+
+.imagen{
+    width: 1.5vw;
+    border-radius: 90%;
+    cursor: pointer;
+}
+
+.iconos-header{
+    display: flex;
+align-items: center;
+    justify-content:space-between;
+    
+    width: 100px;
+    
+    
+}
